@@ -1,0 +1,945 @@
+================================================================================
+WEBSITE BLUEPRINT — SMARTGROW INFOTECH — v3
+Source of truth: SmartGrowBrandBible.pdf (57 pp.) + owner decisions (v2–v3)
+Scope: STRUCTURE + CONTENT ONLY. No design, styling, colors, fonts, or visual
+details appear in this document by design.
+
+CHANGE LOG v2 (owner decisions, 23 Jul 2026):
+  D1  ALL PRICING REMOVED site-wide — no fees, rate cards, or price ranges are
+      published. Pricing is discussed after a booked call. This removes:
+      the standalone Pricing page, every per-service pricing section, all
+      training fees/discount tiers, the US staffing hourly rate card, and all
+      price figures inside the marketing description copy blocks (adapted
+      versions provided per page, marked "adapted").
+      Kept (not customer-facing prices): intern stipends, PPO salary ranges,
+      placement/salary outcome statistics, client success-story figures,
+      engagement timelines, and "first consultation free (30 minutes)".
+  D2  PRIMARY CTA = "Book a Call" → cal.com booking link, used site-wide
+      (navbar, hero, every service page, contact page). Exact cal.com event
+      URL not yet provided — every instance is marked
+      [CAL.COM LINK — PENDING, see M15]. Email/phone/WhatsApp remain as
+      secondary contact channels (they exist in the brand file).
+  D3  B.TECH FINAL YEAR PROJECTS service REMOVED. Services drop from 10 to 9;
+      its page, home-grid entry, nav/footer links, directory row, and
+      testimonials are deleted. Source numbering (01–10) is re-sequenced to
+      01–09 (former 05–10 shift up by one).
+  D4  NAVBAR = REFERENCE-SITE PATTERN (v3, 23 Jul 2026). Owner directed the
+      navbar to mirror the reference site's nav exactly:
+      Services · Our Work · Achievements · FAQs · Contact — hash-anchor links
+      into homepage sections (/#services, /#our-works, /#achievements, /#faq)
+      plus the /contact page; the logo links home; the Book a Call CTA button
+      stays in the navbar. Consequences: the Home page becomes a sectioned
+      one-pager containing those four anchor sections; Company and Technology
+      pages remain but are linked from the FOOTER only (mirroring how the
+      reference site relegates secondary pages to its footer); the 9 service
+      detail pages remain, reached from the #services cards and footer. An
+      #our-works section is assembled from the file's success stories;
+      #achievements from the file's statistics; #faq entries are DRAFTED from
+      brand-file facts (question wording new, every answer sourced) and await
+      owner approval — see M13.
+Rules applied: all remaining content derives from the brand file; nothing is
+invented. Gaps are listed in section 4 (MISSING INFO), not filled in.
+Build caution carried from the source: verify current statistics and
+availability before publishing externally.
+================================================================================
+
+1. SITE OVERVIEW
+--------------------------------------------------------------------------------
+Brand name:      SmartGrow Infotech
+Positioning:     "Your complete technology & training partner"
+What the site is: Public website of a technology solutions and training
+   company based in Madhapur, Hyderabad, Telangana, India (established 2021),
+   serving (1) businesses/startups buying software, marketing, consultancy and
+   staffing, and (2) students buying training and internships.
+Main goal:       Get visitors to BOOK A CALL (cal.com). Secondary channels:
+   email info@smartgrowinfotech.com · phone +91 9063935182 · WhatsApp
+   +91 9063935182. No pricing is published anywhere; every service funnels to
+   the booked call, where pricing is discussed.
+Headline proof points (site-wide stats from the file): 500+ projects delivered,
+   50+ business clients, 1000+ students trained, 87% placement rate.
+
+Pages (13 total) and how each is reached (v3, per D4):
+   1.  Home — a sectioned one-pager: hero + #services + #our-works +
+       #achievements + #faq (the navbar anchors target these sections)
+   2.  Contact — /contact (navbar link)
+   3.  Services — 9 detail pages, reached from the #services cards and the
+       footer (not from the navbar):
+       3.1  Product Development
+       3.2  Web Development
+       3.3  Mobile App Development
+       3.4  CRT Training Program
+       3.5  Internship Program
+       3.6  Technology Consultancy
+       3.7  Digital Marketing
+       3.8  AI / ML Projects & Training
+       3.9  US IT Staffing
+   4.  Company — footer-linked only (reference-site pattern)
+   5.  Technology — footer-linked only (reference-site pattern)
+Removed in v2: Pricing page (D1) · B.Tech Final Year Projects page (D3).
+
+SEO/meta note: use each service's ADAPTED marketing description (reproduced
+per page below, price references removed per D1) as that page's meta
+description / share blurb.
+
+2. LOGO ASSETS
+--------------------------------------------------------------------------------
+STATUS: STILL NOT AVAILABLE. The referenced Logo/ folder has not been
+uploaded (verified: /mnt/user-data/uploads/ contains only
+SmartGrowBrandBible.pdf; the PDF embeds no logo files and has 0 attachments).
+  - Every logo placement in section 3 is marked:
+        [LOGO — PENDING: Logo/ folder not uploaded; insert exact file path
+         per variant once provided]
+  - Placements needing an assigned variant once files arrive: navbar
+    (site-wide), footer (site-wide), favicon/browser tab, social-share/OG
+    image.
+  - See MISSING INFO item M1.
+
+3. SITE STRUCTURE
+--------------------------------------------------------------------------------
+
+3.0 GLOBAL ELEMENTS (every page)
+............................................................
+NAVBAR (v3 — mirrors the reference site's nav exactly, per D4):
+   [LOGO — PENDING: Logo/ folder not uploaded — path TBD] → links to Home
+   Links, in this exact order (SmartGrow's own domain, not the reference's):
+     Services      → /#services       (homepage anchor section)
+     Our Work      → /#our-works      (homepage anchor section)
+     Achievements  → /#achievements   (homepage anchor section)
+     FAQs          → /#faq            (homepage anchor section)
+     Contact       → /contact         (page)
+   Primary CTA button: "Book a Call" → [CAL.COM LINK — PENDING, see M15]
+   NOT in navbar (footer-linked instead, per reference pattern): Company ·
+   Technology · the 9 individual service pages (reached via #services cards).
+
+GLOBAL SERVICE-PAGE CTA BLOCK (appears on every service page in place of the
+former pricing section):
+   Heading intent: book a call to scope the work; pricing is shared on the
+   call. Button: "Book a Call" → [CAL.COM LINK — PENDING].
+   Secondary line: info@smartgrowinfotech.com · +91 9063935182
+
+FOOTER:
+   [LOGO — PENDING: Logo/ folder not uploaded — path TBD]
+   About blurb (verbatim from the file's official boilerplate):
+     "SmartGrow Infotech is a technology solutions and training company based
+     in Hyderabad, India. Established in 2021, we partner with startups, small
+     and medium-sized businesses, enterprises, and students to deliver
+     reliable, scalable, business-focused technology — and to develop future
+     technology professionals through internships, industry-oriented training,
+     and hands-on project experience. Our services span product development,
+     web and mobile applications, AI/ML, digital marketing, technology
+     consultancy, and US IT staffing. Contact: info@smartgrowinfotech.com ·
+     +91 9063935182 · www.smartgrowinfotech.com"
+   Column — Company (reference footer pattern; anchors + secondary pages):
+     Services (/#services) · Our Work (/#our-works) · Achievements
+     (/#achievements) · FAQs (/#faq) · Company (/company) · Technology
+     (/technology) · Contact (/contact)
+   Column — Services (9 links to detail pages): Product Development · Web
+     Development · Mobile App Development · CRT Training · Internship
+     Program · Technology Consultancy · Digital Marketing · AI / ML ·
+     US IT Staffing
+   Column — Contact: "Book a Call" → [CAL.COM LINK — PENDING] · Email
+     info@smartgrowinfotech.com · Phone +91 9063935182 · WhatsApp
+     +91 9063935182 · Website www.smartgrowinfotech.com · Location Madhapur,
+     Hyderabad, Telangana, India
+   NOT in footer (absent from brand file): social media links, newsletter,
+   legal links, copyright text — see MISSING INFO M2–M4.
+
+3.1 PAGE: HOME  (v3 — sectioned one-pager; navbar anchors target H2/H3/H4/H5)
+............................................................
+Purpose: introduce the brand, prove credibility with the file's statistics,
+route visitors to the 9 service detail pages, and drive call bookings. The
+four anchor sections exist because the navbar (D4) points at them.
+
+Section H1 — Hero
+  Content: Brand name "SmartGrow Infotech"; positioning line "Your complete
+  technology & training partner"; scope line (verbatim from "What we do"):
+  "Software products, web & mobile development, AI/ML, digital marketing,
+  consultancy, training & US IT staffing"; founding line "Founded 2021,
+  Hyderabad, India". Primary CTA: "Book a Call" → [CAL.COM LINK — PENDING].
+  Supporting stat row (exact figures): 500+ Projects delivered · 50+
+  Business clients · 1000+ Students trained · 87% Placement rate
+
+Section H2 — id="services" — Services
+  The nine services (each entry links to its detail page; icons and
+  one-liners exactly as the file's services grid):
+  💻 Product Development — "SaaS, enterprise & MVP software, end to end."
+  🌐 Web Development — "Corporate sites, e-commerce & web apps."
+  📱 Mobile Apps — "Native & cross-platform for iOS and Android."
+  🎯 CRT Training — "60-day campus recruitment training program."
+  🚀 Internship Program — "Five tracks of real, production-grade work."
+  💡 Technology Consultancy — "CTO-level architecture, audits & strategy."
+  📈 Digital Marketing — "SEO, ads, social, content & CRO."
+  🤖 AI / ML — "Training programs plus custom AI builds."
+  US IT Staffing — "Pre-vetted Indian developers for US teams."
+     (icon for this entry not legible in source — see M12)
+
+Section H3 — id="our-works" — Our Work
+  Purpose: proof of delivery, assembled from every success story in the
+  brand file (clients are anonymized in the source — see M6). Entries:
+  Business case results:
+    EdTech SaaS platform — an online learning platform now serving 25,000+
+      active users and ₹15L+ monthly revenue. (Product Development)
+    E-commerce marketplace — a multi-vendor platform processing 10,000+
+      orders/month and ₹50L+ GMV. (Product Development)
+    FinTech solution — a payment platform handling ₹10Cr+ in transactions
+      monthly. (Product Development)
+    Startup saved ₹8 lakhs — advised against microservices for a 10-user
+      MVP; a simpler monolith saved six months of over-engineering.
+      (Consultancy)
+    E-commerce site 10× faster — N+1 query problem and improper caching
+      identified; load time dropped from 8 seconds to 0.8. (Consultancy)
+    Passed a security audit first try — guided fixes for all OWASP
+      vulnerabilities; the client passed a SOC 2 audit. (Consultancy)
+    Customer churn prediction for a telecom client — churn reduced by 25%,
+      saving ₹50L annually. (AI/ML)
+    OCR invoice-processing system — handles 10,000+ invoices/month, saving
+      200 man-hours. (AI/ML)
+  Named testimonials (people quotes, as given in the source):
+    Karthik Rao · MGIT — "The internship at SmartGrow was life-changing. I
+      learned more in 3 months than in 3 years of college. Got a PPO and now
+      work as a Junior Developer."
+    Anjali Reddy · CBIT — "Best decision ever. I worked on a real e-commerce
+      project used by thousands of users — my resume looked amazing in
+      placements."
+    Srikanth · JNTUH — "Completed the AI/ML training, built 5 projects, and
+      got placed at Accenture as an ML Engineer at ₹8 LPA."
+
+Section H4 — id="achievements" — Achievements
+  All figures from the brand file:
+  Company: 500+ projects delivered · 50+ business clients · 1000+ students
+    trained · 87% placement rate · 15+ years of combined industry
+    experience · 99.9% satisfaction · 95% of projects delivered within
+    agreed timelines · 24/7 dedicated support.
+  Training & careers: 250+ CRT students trained · ₹4.5L average package
+    (vs ₹3.5L untrained) · ₹12L highest package (Amazon) · 60% of top
+    intern performers receive a PPO · 250+ alumni in top companies.
+  Where trained students got hired (source list): TCS, Wipro, Infosys,
+    Capgemini, Accenture, Cognizant, Tech Mahindra, HCL, Mindtree, Amazon,
+    Microsoft, Flipkart, Paytm.
+
+Section H5 — id="faq" — FAQs
+  [DRAFTED per D4: no FAQs exist in the brand file. Question wording is new;
+  every answer is sourced from the file (Q5 reflects owner pricing policy
+  D1/D2). Owner approval required — see M13.]
+  Q1 What does SmartGrow Infotech do? — Software products, web & mobile
+    development, AI/ML, digital marketing, consultancy, training & US IT
+    staffing. Founded 2021, based in Madhapur, Hyderabad, India.
+  Q2 Who do you work with? — Early-stage startups, SMBs, established
+    enterprises, educational institutions, and individual students preparing
+    for corporate careers.
+  Q3 How long do projects take? — MVPs 6–8 weeks; full products 3–4 months;
+    enterprise solutions 6+ months; mobile apps typically 2–6 months; custom
+    AI solutions 6–12 weeks.
+  Q4 What technologies do you use? — Current stacks: React, Spring Boot,
+    Flutter, AI/ML, AWS/Azure — full index on the Technology page.
+  Q5 How is pricing decided? — Pricing is scoped per engagement and
+    discussed on a call; book one via the Book a Call button. The first
+    consultation is free (30 minutes, no obligation).
+  Q6 Do you provide support after launch? — Yes: end-to-end from ideation to
+    deployment, maintenance, and scaling, with a dedicated 24/7 support team;
+    95% of projects deliver within agreed timelines.
+  Q7 How does the CRT program run? — 60 days (8 weeks), Monday–Saturday,
+    240+ hours; hybrid (offline Hyderabad + online live); maximum 30
+    students; morning (9 AM–1 PM) or evening (5 PM–9 PM) batches.
+  Q8 How do I apply for an internship? — Email info@smartgrowinfotech.com
+    with subject "Internship Application – [Your Track] – [Your Name]",
+    attaching a resume and cover letter; intake is year-round.
+  Q9 How fast can US companies get developer profiles? — 3–5 pre-screened
+    profiles within 48 hours, a two-week paid trial, and free replacement if
+    a developer doesn't work out.
+
+Section H6 — Closing CTA strip
+  "Book a Call" → [CAL.COM LINK — PENDING]; secondary:
+  info@smartgrowinfotech.com · +91 9063935182; HQ line "Headquarters:
+  Madhapur, Hyderabad, Telangana, India".
+
+3.2 PAGE: COMPANY  (source: Vol 1 — Company Foundation)
+............................................................
+Purpose: who SmartGrow is, why it exists, and its principles ("Who SmartGrow
+Infotech is, why it exists, and the principles that govern how it works.").
+
+Section C1 — Company overview (faithful to source, two paragraphs)
+  Para 1: SmartGrow Infotech is a technology solutions and training company
+  based in Hyderabad, India. Established in 2021, it has grown into a partner
+  for businesses, startups, and students seeking software solutions and
+  professional skill development.
+  Para 2: Its purpose is to bridge the gap between academic learning and
+  industry requirements while delivering software products that drive business
+  growth. Clientele ranges from early-stage startups to established
+  enterprises, educational institutions, and individual students preparing for
+  corporate careers.
+
+Section C2 — Stats row: 500+ Projects delivered · 50+ Business clients ·
+  1000+ Students trained · 87% Placement rate
+
+Section C3 — Vision (verbatim)
+  "To be the most trusted technology partner in India — known for innovative
+  solutions that transform businesses and empower individuals with
+  future-ready skills. The company envisions a future where every business has
+  access to affordable, high-quality technology, and every engineering student
+  is job-ready on graduation."
+
+Section C4 — Mission (six points, verbatim)
+  1. Deliver exceptional software products that exceed client expectations.
+  2. Bridge the skill gap between academic education and industry requirements.
+  3. Empower students with practical, job-ready technical and soft skills.
+  4. Provide cost-effective technology solutions to startups and SMBs.
+  5. Foster innovation and excellence in everything the company does.
+  6. Build long-term relationships based on trust, transparency, and results.
+
+Section C5 — Core values (six, label + description)
+  Excellence — Striving for perfection in every project and training program
+    delivered.
+  Integrity — Operating with complete transparency and honesty in all dealings.
+  Innovation — Continuously adopting the latest technologies and methodologies.
+  Customer Success — Measuring success by the success of clients and students.
+  Empowerment — Enabling people with knowledge, skills, and opportunities.
+  Commitment — Delivering on promises, every single time.
+
+Section C6 — Why choose SmartGrow (ten, label + description)
+  Proven track record — 500+ successful projects, 1000+ students trained, 87%
+    placement rate.
+  Expert team — 15+ years of combined industry experience across technologies
+    and domains.
+  Quality assurance — Industry-standard practices, rigorous testing, 99.9%
+    satisfaction.
+  Cost-effective — Competitive pricing without compromising on quality.
+  Modern technology — Current stacks — React, Spring Boot, Flutter, AI/ML,
+    AWS/Azure.
+  On-time delivery — 95% of projects delivered within agreed timelines.
+  24/7 support — A dedicated support team for all clients.
+  End-to-end — From ideation to deployment, maintenance, and scaling.
+  Student-centric — A distinctive focus on making students job-ready.
+  Long-term partnership — Lasting relationships, not one-off deliveries.
+
+Section C7 — Contact block + CTA
+  "Book a Call" → [CAL.COM LINK — PENDING] · Email info@smartgrowinfotech.com ·
+  Phone +91 9063935182 · WhatsApp +91 9063935182 · Website
+  www.smartgrowinfotech.com · Location Madhapur, Hyderabad, Telangana, India
+
+3.3 SERVICE PAGE TEMPLATE (applies to 3.3.1–3.3.9)
+............................................................
+Per the brand file, every service page carries: overview → scope ("what we
+build/do") → process → technology stack → success stories, plus an ADAPTED
+MARKETING DESCRIPTION (price references removed per D1; use as page meta
+description and/or closing pitch) and the GLOBAL SERVICE-PAGE CTA BLOCK
+("Book a Call" → cal.com) in place of the former pricing section.
+
+3.3.1 PAGE: PRODUCT DEVELOPMENT  (Service 01)
+  Header: "Product Development" — "End-to-end product engineering that turns
+    ideas into market-ready, scalable software."
+  S1 Overview: end-to-end service turning ideas into market-ready, scalable
+    software — SaaS applications, enterprise solutions, marketplaces, custom
+    products. Approach rooted in Agile (flexibility, continuous feedback,
+    iterative improvement); architects solutions that scale from 100 users to
+    1 million, and from a single region to global operations.
+  S2 What we build (8): SaaS applications — cloud platforms with subscription
+    models, multi-tenancy, automated billing · Enterprise software — custom
+    ERP, CRM, HRMS, industry-specific · MVP development — test market fit fast
+    (6–8 weeks) · E-commerce platforms — full stores with payment gateways,
+    inventory, analytics · Marketplace platforms — multi-vendor, buyers &
+    sellers · FinTech — payments, digital wallets, trading and lending ·
+    HealthTech — telemedicine, health records, appointment scheduling ·
+    EdTech — LMS, online course platforms, student portals.
+  S3 Development process (4 phases):
+    Phase 1 · 1 week — Discovery & planning: requirements, market/competitor
+      research, user personas, stack selection, architecture, wireframing.
+    Phase 2 · 1–2 weeks — Design: user-centric UI/UX, interactive prototypes,
+      a design system, client iterations.
+    Phase 3 · 4–12 weeks — Development: two-week Agile sprints, clean
+      maintainable code, weekly demos, CI/CD, API & third-party integrations.
+    Phase 4 · 2–3 weeks — Testing & deployment: functional, integration,
+      performance testing, security assessment, production setup, go-live.
+  S4 Technology stack: Frontend — React.js, Angular, Vue.js, TypeScript,
+    Next.js · Backend — Spring Boot (Java), Node.js, Python (Django/FastAPI),
+    .NET Core · Databases — PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch ·
+    Cloud & DevOps — AWS, Azure, Google Cloud, Docker, Kubernetes, Jenkins ·
+    Additional — GraphQL, WebSockets, Kafka, payment gateways (Stripe,
+    Razorpay).
+  S5 Engagement timelines (retained from source, prices removed per D1):
+    MVP 6–8 weeks · full product 3–4 months · enterprise solutions 6+
+    months · monthly retainer engagements available.
+  S6 Success stories (3): EdTech SaaS platform — 25,000+ active users, ₹15L+
+    monthly revenue · E-commerce marketplace — 10,000+ orders/month, ₹50L+
+    GMV · FinTech solution — ₹10Cr+ transactions monthly.
+  S7 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S8 Marketing description (adapted per D1/D2): "Turn your idea into a
+    market-ready product. SmartGrow Infotech builds scalable SaaS platforms,
+    enterprise software, marketplaces and MVPs end to end — from discovery and
+    design through Agile development, testing and launch. Architected to
+    scale from 100 to 1,000,000 users. MVPs in 6–8 weeks. Book a call to get
+    started."
+
+3.3.2 PAGE: WEB DEVELOPMENT  (Service 02)
+  Header: "Web Development" — "High-performance websites and web apps that
+    convert visitors into customers."
+  S1 Overview: stunning, high-performance websites that look beautiful and
+    drive business results — corporate sites, e-commerce stores, and complex
+    web applications built to convert.
+  S2 Types of websites we build (6): Corporate websites — company profile,
+    services, team pages, blog · E-commerce — cart, payment gateway,
+    inventory, order tracking · Portfolio websites — for designers,
+    photographers, artists · Custom web apps — CRM, project management,
+    booking systems, dashboards · Landing pages — high-converting with lead
+    capture and A/B testing · Progressive web apps — app-like experience with
+    offline support and push notifications.
+  S3 Key features implemented (11): mobile-responsive design across all
+    devices · fast loading (under 2 seconds) · SEO optimization to rank on
+    Google · contact forms with email notifications · Google Maps and social
+    media integration · SSL security (HTTPS) · analytics (Google Analytics,
+    Facebook Pixel) · live chat integration · blog/CMS for content
+    management · payment gateway integration · user registration and login.
+  S4 Technologies used: Frontend — HTML5, CSS3, JavaScript, React.js,
+    Next.js, Tailwind CSS, Bootstrap · Backend — Node.js, PHP (Laravel),
+    Python (Django), Java Spring Boot · CMS — WordPress, custom CMS, headless
+    CMS (Strapi, Contentful) · E-commerce — WooCommerce, Shopify, custom
+    solutions, Magento.
+  S5 SEO & performance (as listed in source): keyword research and on-page
+    optimization · meta tag (title, description) optimization · image
+    compression and lazy loading · code minification and browser caching ·
+    CDN integration for global fast loading · mobile-first indexing · schema
+    markup for rich snippets · Core Web Vitals optimization.
+  S6 Success stories: none given for this service in the source (see M16).
+  S7 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S8 Marketing description (adapted per D1/D2): "Websites that work as hard
+    as you do. SmartGrow Infotech designs and builds fast, responsive,
+    SEO-ready websites and web apps — corporate sites, e-commerce stores,
+    landing pages and PWAs — engineered to load in under 2 seconds and
+    convert visitors into customers. Book a call for a quote."
+
+3.3.3 PAGE: MOBILE APP DEVELOPMENT  (Service 03)
+  Header: "Mobile App Development" — "Native and cross-platform apps, from
+    concept to App Store and Play Store launch."
+  S1 Overview: native and cross-platform applications delivering exceptional
+    user experiences — everything from concept to App Store and Play Store
+    launch, for a mobile-first world.
+  S2 Types of apps we build (6): iOS apps — native Swift/SwiftUI for iPhone
+    and iPad · Android apps — native Kotlin/Java · Cross-platform — single
+    codebase for iOS & Android using React Native or Flutter · Hybrid apps —
+    cost-effective solutions using web technologies · Enterprise apps —
+    internal apps for employee productivity · Consumer apps — B2C for retail,
+    services, entertainment.
+  S3 Popular categories (9): e-commerce & shopping · on-demand services
+    (taxi, food, home services) · social networking · FinTech (banking,
+    payments, investment, crypto) · healthcare & telemedicine · education &
+    learning · food, restaurant & delivery · travel & booking · entertainment
+    & streaming.
+  S4 Development process (6 steps): Discovery — requirement analysis,
+    competitor research, feature planning, wireframing · Design — UI/UX &
+    prototypes, user flow, design system · Development — Agile build, API
+    integration, backend setup, regular updates · Testing — multi-device QA:
+    functional, device, performance, beta · Launch — App Store and Play Store
+    submission and approval · Post-launch — maintenance: monitoring, updates,
+    bug fixes, new features.
+  S5 Technology stack: iOS — Swift, SwiftUI, Xcode, CocoaPods · Android —
+    Kotlin, Java, Android Studio, Gradle · Cross-platform — React Native,
+    Flutter, Xamarin · Backend — Node.js, Spring Boot, Firebase, AWS Amplify ·
+    Database — SQLite, Realm, Firebase Realtime Database, PostgreSQL · Cloud —
+    AWS, Google Firebase, Azure Mobile Services.
+  S6 Key features implemented (11): authentication (email, phone, social
+    login) · push notifications · in-app payments (Google Pay, Apple Pay,
+    Stripe) · real-time chat and messaging · GPS and location services ·
+    camera and gallery integration · barcode/QR scanning · offline
+    functionality · social sharing · analytics and crash reporting · admin
+    dashboard.
+  S7 Engagement timeline (retained, prices removed per D1): typical timeline
+    2–6 months depending on complexity; single-platform through
+    multi-platform enterprise builds.
+  S8 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S9 Marketing description (adapted per D1/D2): "From idea to the App Store.
+    SmartGrow Infotech builds native and cross-platform mobile apps (iOS,
+    Android, React Native, Flutter) with payments, push, chat, offline mode
+    and an admin dashboard — handling design, development, testing and store
+    launch. Book a call to start your app."
+
+3.3.4 PAGE: CRT TRAINING PROGRAM  (Service 04 — was 05 in source)
+  Header: "CRT Training Program" — "A 60-day program that turns engineering
+    students into placement-ready professionals."
+  S1 Overview: the Campus Recruitment Training (CRT) program is the flagship
+    training initiative — placement-ready in 60 days, 87% placement success
+    rate, covering Data Structures & Algorithms through soft skills and mock
+    interviews. Practical and interview-oriented: solving problems under
+    pressure, explaining approach clearly, presenting confidently in every
+    round.
+  S2 Why students choose CRT (8): 87% placement rate — against a 40–60%
+    industry average · Average package ₹4.5 LPA — significantly higher than
+    non-trained students · Expert faculty — industry professionals with 8+
+    years' experience · Small batches — maximum 30 students per batch ·
+    Practical focus — 70% hands-on practice vs 30% theory · 500+ coding
+    problems — curated to cover all interview patterns · Real mock
+    interviews — simulated environment with detailed feedback · Career
+    support — ATS-friendly resume, LinkedIn optimisation, placement
+    assistance.
+  S3 60-day curriculum (5 blocks):
+    Week 1–3 · 24 days — Data Structures & Algorithms: foundations (arrays,
+      strings, hashing, two-pointer, sliding window, binary search),
+      intermediate (linked lists, stacks, queues, trees, traversals),
+      advanced (graphs, heaps, DP, backtracking, greedy); daily practice of
+      5–10 problems.
+    Week 4–5 · 12 days — Programming languages: Java track (OOP, collections,
+      exceptions, Java 8) or Python track (fundamentals, comprehensions, OOP,
+      libraries), plus 50+ coding problems and optimisation techniques.
+    Week 6 · 6 days — System design fundamentals: scalability, load
+      balancing, caching, SQL vs NoSQL, API design, microservices, sample
+      designs (URL shortener, Twitter feed, Instagram stories).
+    Week 7 · 6 days — Aptitude & reasoning: quantitative aptitude and logical
+      reasoning with 200+ problems and mock tests.
+    Week 8 · 6 days — Soft skills & communication: communication, group
+      discussion, HR interview (STAR method), personal branding.
+  S4 Mock interviews: Week 3 — DSA basics assessment · Week 5 — DSA +
+    programming combined · Week 7 — complete technical round · Week 8 —
+    HR/behavioural. Each runs 45–60 minutes, is video-recorded for
+    self-review, with a detailed feedback report and personalised improvement
+    plan.
+  S5 Learning resources (8): comprehensive PDF notes and presentations ·
+    lifetime access to session recordings · 500+ curated practice problems
+    with solutions · cheat sheets and quick reference guides · company-wise
+    previous-year interview questions · LeetCode Premium access (worth
+    ₹3,000/year) · dedicated WhatsApp doubt-resolution group · two one-on-one
+    mentorship sessions.
+  S6 Outcome (fee tiers removed per D1; outcome stat retained): trained
+    students' average package moves from ₹3.5L to ₹4.5L — about ₹8,333 extra
+    per month.
+  S7 Placement statistics (4 + companies): 250+ students trained · 87%
+    placement rate · ₹4.5L average package · ₹12L highest (Amazon). Hiring
+    companies include: TCS, Wipro, Infosys, Capgemini, Accenture, Cognizant,
+    Tech Mahindra, HCL, Mindtree, Amazon, Microsoft, Flipkart, Paytm.
+  S8 Batch details (5): Duration — 60 days (8 weeks), Monday to Saturday ·
+    Training hours — 240+ hours (4 hours/day) · Batch size — maximum 30
+    students · Mode — hybrid: offline (Hyderabad) + online live sessions ·
+    Timings — morning (9 AM–1 PM) or evening (5 PM–9 PM).
+  S9 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S10 Marketing description (adapted per D1/D2): "Get placement-ready in 60
+    days. SmartGrow Infotech's Campus Recruitment Training covers DSA, core
+    programming, system design, aptitude and interview skills — with 500+
+    problems, real mock interviews and an 87% placement rate (avg ₹4.5 LPA).
+    Limited to 30 seats per batch. Book a call to enroll."
+
+3.3.5 PAGE: INTERNSHIP PROGRAM  (Service 05 — was 06 in source)
+  Header: "Internship Program" — "Real, production-grade work across five
+    tracks — with mentorship and PPO opportunities."
+  S1 Overview: interns are junior developers, not coffee-fetchers — real
+    client projects, production-ready code, learning from experienced
+    professionals; hands-on experience that builds a resume and prepares for
+    full-time roles. Five in-demand tracks; top performers receive
+    Pre-Placement Offers (PPO) to join full-time after graduation.
+  S2 Internship tracks (5, stack + scope + stipend):
+    Full-Stack Development — Java, Spring Boot, React.js, PostgreSQL, AWS,
+      Docker; REST APIs, responsive UIs, database design, AWS deployment,
+      Git, code reviews. Stipend ₹8,000–₹15,000/month.
+    Mobile App Development — React Native, Flutter, Firebase, REST APIs;
+      cross-platform apps, API integration, push notifications, store
+      deployment, testing. Stipend ₹7,000–₹12,000/month.
+    Data Engineering — Python, Kafka, Airflow, Spark, AWS, PostgreSQL; data
+      pipelines, real-time processing, ETL, query optimisation, dashboards.
+      Stipend ₹10,000–₹15,000/month.
+    DevOps & Cloud — AWS, Docker, Kubernetes, Jenkins, Terraform, Linux;
+      CI/CD, containerisation, cluster management, monitoring, infrastructure
+      automation. Stipend ₹8,000–₹15,000/month.
+    AI/ML Engineering — Python, TensorFlow, PyTorch, scikit-learn, Pandas,
+      NumPy; ML models, NLP and computer vision, data preprocessing, model
+      deployment. Stipend ₹10,000–₹15,000/month.
+  S3 What makes it different (8): real projects — actual client projects that
+    go to production, not toy apps · experienced mentors — developers with 8+
+    years of industry experience · daily code reviews — best practices and
+    clean code · daily standups — real Agile methodology and team sync-ups ·
+    portfolio building — 3–5 professional projects for the resume ·
+    certificate & recommendation — valued by recruiters and HR managers ·
+    PPO opportunity — 60% of top performers get full-time offers · alumni
+    network — a community of 250+ alumni in top companies.
+  S4 Internship structure: Week 1–2 — onboarding & training: company
+    processes and tools, Git training, code-review standards, environment
+    setup, starter tasks · Week 3–8 — active development: assigned to real
+    client projects — features, bug fixes, code reviews, daily standups,
+    weekly mentor reviews · Week 9–12 — advanced work: own complete features,
+    lead small modules, present work, prepare a final presentation.
+  S5 Requirements to apply (6): currently in 2nd, 3rd, or final year of
+    engineering · basic programming in any language (Java/Python/JavaScript) ·
+    commitment to full-time work (6 days/week) during the internship · a
+    hunger to learn and grow as a developer · good communication skills
+    (English) · own laptop required.
+  S6 Selection process (5 steps): 1 Application — online application with
+    resume · 2 Coding test — online DSA and programming test · 3 Technical
+    interview — problem-solving and fundamentals · 4 HR interview —
+    communication and commitment · 5 Offer & onboarding.
+  S7 Compensation (4): stipend range ₹5,000–₹15,000/month based on
+    performance and track · monthly performance reviews can increase the
+    stipend · 60% of top performers receive a PPO · full-time salary ₹3.5–6
+    LPA after PPO conversion.
+  S8 Success stories (2, names + colleges as given):
+    Karthik Rao · MGIT — "The internship at SmartGrow was life-changing. I
+      learned more in 3 months than in 3 years of college. Got a PPO and now
+      work as a Junior Developer."
+    Anjali Reddy · CBIT — "Best decision ever. I worked on a real e-commerce
+      project used by thousands of users — my resume looked amazing in
+      placements."
+  S9 How to apply: Email info@smartgrowinfotech.com · Subject line
+    "Internship Application – [Your Track] – [Your Name]" · Attach resume +
+    a cover letter on why you want to intern · Intake year-round
+    (continuous), flexible start dates. (Application stays email-based per
+    source; the Book a Call CTA is additional.)
+  S10 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S11 Marketing description (verbatim — contains no pricing; CTA per source):
+    "Work like a real developer, not a student. SmartGrow Infotech offers
+    hands-on internships across Full-Stack, Mobile, Data Engineering, DevOps
+    and AI/ML — real client projects, daily mentorship and code reviews, a
+    certificate and recommendation, and a 60% PPO conversion rate. Stipend
+    ₹5,000–₹15,000/month. Apply: info@smartgrowinfotech.com"
+
+3.3.6 PAGE: TECHNOLOGY CONSULTANCY  (Service 06 — was 07 in source)
+  Header: "Technology Consultancy" — "CTO-level guidance on architecture,
+    scaling, security and tech strategy — without a full-time hire."
+  S1 Overview: the right technology decisions save months of development time
+    and lakhs of rupees. Expert guidance from professionals who have built,
+    scaled, and maintained systems handling millions of users — helping
+    startups and businesses decide on architecture, stack, scaling, security,
+    and more.
+  S2 When you need it (10): starting a new project, unsure about the tech
+    stack · an existing system is slow and you don't know why · planning to
+    scale from 1,000 to 100,000+ users · getting conflicting advice from
+    different developers · need to pass a security audit for compliance ·
+    considering microservices but unsure if it fits · hiring a technical team
+    and need to evaluate candidates · a product has too much technical debt ·
+    want to migrate to cloud but don't know where to start · need a CTO
+    perspective without a full-time CTO.
+  S3 Consulting services (10, each with deliverable):
+    Technology stack selection — evaluate requirements; recommend frontend,
+      backend, database, cloud with justification. Deliverable: stack
+      recommendation document.
+    Architecture review & design — bottlenecks, greenfield design,
+      microservices vs monolith, schema review, API strategy, caching.
+      Deliverable: diagrams, design docs, roadmap.
+    Code review & quality audit — quality, security, performance review;
+      technical debt; OWASP checks. Deliverable: prioritised audit report.
+    Performance optimization — profile bottlenecks, optimise queries, tune
+      frontend, caching, CDN, load testing. Deliverable: optimisation report
+      with fixes.
+    Security assessment — OWASP Top 10, auth and encryption review, API
+      security, pen-test recommendations. Deliverable: assessment with
+      remediation steps.
+    Cloud migration strategy — readiness, provider choice, architecture, cost
+      estimation, roadmap. Deliverable: migration plan with timelines.
+    Scaling strategy — bottlenecks, horizontal/vertical scaling, DB scaling,
+      load balancing, caching, queues. Deliverable: scaling roadmap.
+    Team capability assessment — skills, code quality, training needs, hiring
+      plan. Deliverable: team report with recommendations.
+    DevOps implementation — CI/CD, Docker, Kubernetes, Terraform, monitoring,
+      automated testing. Deliverable: implementation plan.
+    Technical due diligence — codebase, debt, team, scalability, security and
+      risk review for investors. Deliverable: due-diligence report.
+  S4 Our approach (6 steps): 1 Discovery call (free, 30 min) — situation,
+    challenges, goals [this step IS the cal.com booking — the site's Book a
+    Call maps directly onto it] · 2 Proposal & scope — scope, timeline,
+    pricing · 3 Deep-dive analysis — systems, code, documentation, team ·
+    4 Recommendations & roadmap — detailed recommendations with an
+    implementation plan · 5 Q&A session — clarify recommendations ·
+    6 Follow-up support (optional) — implementation help or ongoing advisory.
+  S5 Engagement note (fee tiers removed per D1; retained from source): first
+    consultation is free (30 minutes), no obligation. Engagement formats:
+    hourly consultations, project-based reviews/strategy documents, and
+    monthly CTO-level advisory retainers.
+  S6 Success stories (3): Startup saved ₹8 lakhs — advised against
+    microservices for a 10-user MVP; simpler monolith saved six months of
+    over-engineering · E-commerce site 10× faster — N+1 query problem and
+    improper caching identified; load time 8s → 0.8s · Passed a security
+    audit first try — guided fixes for all OWASP vulnerabilities; client
+    passed a SOC 2 audit.
+  S7 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING]; label the
+    booking as the free 30-minute discovery call.
+  S8 Marketing description (adapted per D1/D2): "Get CTO-level guidance
+    without hiring a CTO. SmartGrow Infotech advises on architecture,
+    tech-stack selection, scaling, security, cloud migration, performance and
+    DevOps — delivered as clear reports and roadmaps. First 30-minute
+    consultation free. Book a call."
+
+3.3.7 PAGE: DIGITAL MARKETING  (Service 07 — was 08 in source)
+  Header: "Digital Marketing" — "Data-driven marketing across every channel —
+    built by people who understand technology businesses."
+  S1 Overview: a great product is only half the battle — customers need to
+    know about it. Services help businesses reach their audience, generate
+    qualified leads, and convert them into paying customers, using
+    data-driven strategies across channels to maximise ROI. Unlike generic
+    agencies, the team understands technology businesses deeply and markets
+    to both technical and non-technical audiences.
+  S2 Marketing services (8):
+    Search Engine Optimization (SEO) — keyword research, on-page and
+      technical SEO, content strategy, link building, local SEO, competitor
+      analysis, monthly reporting. Typical ROI 300–500% over 3–6 months.
+    Social Media Marketing — platform strategy, content creation, a 30–60
+      post calendar, community management, paid social, influencer marketing,
+      analytics across LinkedIn, Instagram, Facebook, Twitter, YouTube.
+    Google Ads (PPC) — search, display and remarketing campaigns, keyword
+      selection, ad copy, landing pages, bid management, A/B testing,
+      conversion tracking. Typically 2–4× ROI within 3 months.
+    Content Marketing — 4–8 SEO blog posts/month, case studies, white papers
+      and e-books, infographics, video, newsletters, guest posting.
+    Email Marketing — list building, automated sequences, responsive
+      templates, segmentation, A/B testing, analytics. Typical 20–30% open
+      and 3–5% click rates.
+    LinkedIn Marketing (B2B) — profile optimisation, content strategy, lead
+      generation, LinkedIn Ads, employee advocacy, groups — best for SaaS,
+      B2B services, enterprise software.
+    WhatsApp Marketing — broadcast lists, WhatsApp Business, automated
+      responses, rich media, status updates, group marketing. 98% open and
+      45–60% response rates.
+    Conversion Rate Optimization (CRO) — website audits, A/B testing, landing
+      page design, form optimisation, heat maps, funnel analysis. Typically a
+      20–50% lift in conversion.
+  S3 Industries served (7): technology & SaaS · education · e-commerce ·
+    healthcare · real estate · professional services · manufacturing.
+  S4 Our process: Month 1 — research & setup: business and audience research,
+    competitor analysis, strategy, account setup and tracking, first
+    campaigns · Month 2–3 — execution & optimization: content creation,
+    campaign monitoring, A/B testing, weekly performance reviews · Month 4+ —
+    scaling & growth: scale what works, expand channels, advanced strategies,
+    continuous optimisation.
+  S5 Engagement tiers (prices removed per D1; scope retained): Startup —
+    basic SEO, 2 social platforms, 4 blog posts, monthly report · Growth —
+    advanced SEO, 3 platforms, Google Ads, 8 posts, email, bi-weekly calls ·
+    Enterprise — full-service, all channels, dedicated manager, weekly calls,
+    CRO. A performance-based option is available (base fee plus a percentage
+    of revenue generated).
+  S6 Metrics we track (9): website traffic (organic & paid) · keyword
+    rankings (top-10 positions) · lead generation (forms, calls, emails) ·
+    cost per lead (CPL) · conversion rate · return on ad spend (ROAS) ·
+    social engagement · email open and click rates · revenue generated.
+  S7 Typical results (3–6 months): SEO — 100–300% increase in organic
+    traffic; 50–100 qualified leads/month · Google Ads — 2–4× ROI; ₹50–200
+    cost per lead depending on industry · Social media — 50–100% follower
+    growth; 5–10 organic leads/week · Content marketing — 3–5× website
+    traffic in 6 months and established authority.
+  S8 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S9 Marketing description (adapted per D1/D2): "Marketing that understands
+    technology businesses. SmartGrow Infotech runs SEO, Google Ads, social,
+    content, email, LinkedIn, WhatsApp and CRO — data-driven, fully reported,
+    and tied to revenue. Performance-based option available. Book a call to
+    grow your pipeline."
+
+3.3.8 PAGE: AI / ML PROJECTS & TRAINING  (Service 08 — was 09 in source)
+  Header: "AI / ML Projects & Training" — "A hands-on AI/ML training program
+    plus custom AI solution development for businesses."
+  S1 Overview: AI and ML are transforming every industry. SmartGrow offers
+    both a training program for students building AI skills and custom AI
+    development for businesses — practical and hands-on, covering not just
+    theory but how to build and deploy real AI systems.
+  S2 AI/ML training program: a 3-month intensive that takes beginners to
+    job-ready AI engineers — 80% practical projects, 20% theory.
+    Details: Duration — 12 weeks (3 months) · Mode — live online + offline
+    (Hyderabad) · Schedule — 3 days/week, 2 hours/session, 72 hours total ·
+    Batch size — maximum 20 students.
+  S3 Curriculum (3 months): Month 1 — Python & data science foundations:
+    Python mastery, NumPy, Pandas, visualisation (Matplotlib/Seaborn),
+    Jupyter/Colab; statistics, probability, distributions, hypothesis
+    testing, linear algebra and calculus for ML · Month 2 — Machine learning:
+    supervised learning (regression, logistic, decision trees, random
+    forests, SVM, KNN, evaluation metrics) and advanced ML (clustering,
+    PCA/t-SNE, ensembles/XGBoost, feature engineering, imbalanced data,
+    hyperparameter tuning) · Month 3 — Deep learning & specialisations:
+    neural networks, TensorFlow/Keras, CNNs, RNNs, transfer learning; NLP
+    (embeddings, sentiment, NER); computer vision (OpenCV, object detection,
+    face recognition, segmentation).
+  S4 Hands-on projects (5): house price prediction (linear regression) ·
+    customer churn prediction (classification) · sentiment analysis of
+    product reviews (NLP) · face mask detection using CNN (computer vision) ·
+    recommendation system (collaborative filtering).
+  S5 What's included (10): 72 hours of live training · lifetime access to
+    recorded videos · study materials (PDFs, code, datasets) · Google Colab
+    Pro subscription (₹5,000 value) · 5 industry-grade projects with code ·
+    GitHub portfolio setup · certificate of completion · 3 mock interviews
+    for AI/ML roles · job referrals · lifetime WhatsApp support group.
+  S6 Career outcome (fees/payment terms removed per D1; retained from
+    source): AI/ML engineers earn ₹6–12 LPA starting salary.
+  S7 Custom AI solutions we build (5): predictive analytics — sales
+    forecasting, demand prediction, customer lifetime value, churn, risk
+    models · natural language processing — chatbots, sentiment analysis,
+    document classification, summarisation, translation, Q&A · computer
+    vision — object detection, face recognition, OCR, defect detection,
+    classification, video analytics · recommendation systems — product,
+    content and job-matching recommendations; personalised marketing ·
+    anomaly detection — fraud detection, intrusion detection, manufacturing
+    QC, healthcare alerts.
+  S8 AI development process: Week 1 — discovery & data: understand the
+    problem, collect and explore data, assess feasibility, define metrics ·
+    Week 2–4 — model development: cleaning, feature engineering, training,
+    tuning, evaluation · Week 5–6 — deployment: API development
+    (Flask/FastAPI), cloud deployment, frontend integration, monitoring,
+    documentation. Timeline: 6–12 weeks depending on complexity.
+  S9 Success stories (3): Srikanth · JNTUH — "Completed the AI/ML training,
+    built 5 projects, and got placed at Accenture as an ML Engineer at ₹8
+    LPA." · Business project — a customer churn prediction model for a
+    telecom client reduced churn by 25% and saved ₹50L annually · Product
+    success — an OCR invoice-processing system handles 10,000+
+    invoices/month, saving 200 man-hours.
+  S10 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S11 Marketing description (adapted per D1/D2): "Build AI skills or build AI
+    products. SmartGrow Infotech runs a hands-on 3-month AI/ML program
+    (Python, ML, deep learning, NLP, computer vision — 5 real projects,
+    certificate, referrals) and builds custom AI: predictive analytics, NLP,
+    computer vision, recommendations and anomaly detection. Book a call to
+    talk to us."
+
+3.3.9 PAGE: US IT STAFFING  (Service 09 — was 10 in source)
+  Header: "US IT Staffing" — "Pre-vetted Indian developers for US companies —
+    at 40–60% lower cost, without quality compromise."
+  S1 Overview: connects US companies seeking tech talent with highly
+    qualified Indian developers who work as remote contractors — significant
+    cost savings without compromising quality. Developers work in US time
+    zones, communicate fluently in English, follow US business practices, and
+    deliver to US quality standards — all at 40–60% lower cost than hiring
+    locally in the US.
+  S2 Why US companies hire through us:
+    Cost savings without quality compromise (5, own rate figures removed per
+      D1): 40–60% cost reduction vs typical US developer rates of
+      $120–180/hour · no benefits overhead — no health insurance, 401k, or
+      other employee benefits · no recruitment costs — sourcing, screening,
+      interviews handled · flexible scaling — ramp up or down without
+      severance concerns · no infrastructure costs — developers work from
+      their own setup.
+    Quality & reliability (5): pre-vetted talent — only the top 5% of
+      applicants pass screening · proven experience — 3–10+ years hands-on ·
+      strong communication — fluent English, experienced with US teams ·
+      time-zone overlap — minimum 4–5 hours with EST/PST · accountability —
+      performance managed, issues handled.
+  S3 Technical expertise provided (4): software development — full-stack,
+    backend, frontend, mobile engineers · data & analytics — data engineers,
+    data scientists, analysts, ML engineers · cloud & DevOps — DevOps
+    engineers, cloud architects, SREs, security engineers · specialised
+    roles — QA/test engineers, UI/UX designers, business analysts, technical
+    project managers.
+  S4 Vetting process (5 steps + result): 1 Resume screening — experience,
+    technologies, English proficiency, US exposure · 2 Technical assessment —
+    coding tests, system design, technology-specific questions (95% filtered
+    out here) · 3 Technical interview — 1-hour deep dive on problem-solving,
+    architecture, best practices · 4 Communication assessment — English
+    fluency and explaining technical concepts · 5 Background verification —
+    employment history, education, references. Result: only 5% of applicants
+    make it into the talent pool.
+  S5 How it works (5): Profiles — 3–5 pre-screened candidate profiles within
+    48 hours · Interview — interview candidates directly, with assistance if
+    needed · Trial — a two-week paid trial to evaluate fit · Onboard — sign
+    the contract, the developer starts · Ongoing — payroll, performance, and
+    issues managed for you.
+  S6 Contract types (4): full-time 40 hrs/week — dedicated resource for
+    long-term projects · part-time 20 hrs/week — maintenance, support, small
+    projects · project-based — fixed scope and timeline · staff
+    augmentation — integrate with your existing team.
+    [Hourly rate card removed per D1 — experience levels junior through
+    architect/lead available; rates discussed on the call.]
+  S7 Billing terms (5, no price figures — retained): invoicing — monthly,
+    based on hours worked · time tracking — Hubstaff, Jira, or your preferred
+    tool · payment — wire transfer, PayPal, or Wise (USD) · contract —
+    standard MSA · minimum commitment — 3 months after the trial.
+  S8 Quality guarantees (7): two-week trial before long-term commitment ·
+    free replacement if a developer doesn't work out · performance management
+    of underperformance · guaranteed 4–5 hours daily overlap · response
+    within 4 business hours · NDAs and IP-assignment agreements · backup
+    resources for continuity.
+  S9 For Indian developers — join the talent pool (4): higher earnings than
+    typical Indian-company salaries (₹60–80K/month) with US contract work ·
+    work-life balance — remote work with flexible hours and some US overlap ·
+    international exposure — cutting-edge US projects and world-class teams ·
+    stable income — long-term contracts and reliable payments.
+    [Note: source states developer earnings of $50–75/hour (₹1.5–3L/month);
+    publishing this implies the client rate card removed under D1 — owner to
+    decide whether to show it. Held out of page content pending decision.]
+  S10 CTA block (global) — Book a Call → [CAL.COM LINK — PENDING].
+  S11 Marketing description (adapted per D1/D2): "Hire pre-vetted Indian
+    developers at 40–60% lower cost. SmartGrow Infotech provides remote
+    contractors (top 5% of applicants) across full-stack, data, cloud/DevOps
+    and specialised roles — with US time-zone overlap, a 2-week trial, free
+    replacement and a standard MSA. Profiles in 48 hours. Book a call."
+
+3.4 PAGE: TECHNOLOGY  (source: Vol 3 — Technology Index)
+............................................................
+Purpose: "The complete technology stack used across all SmartGrow services,
+in one place." Ten labeled groups, items exactly as listed:
+  Frontend (11): React.js · Next.js · Angular · Vue.js · TypeScript · HTML5 ·
+    CSS3 · JavaScript · Tailwind CSS · Bootstrap · Material-UI
+  Backend (7): Spring Boot (Java) · Node.js · Python (Django) · Python
+    (FastAPI) · Python (Flask) · .NET Core · PHP (Laravel)
+  Mobile (6): Swift / SwiftUI · Kotlin · Java (Android) · React Native ·
+    Flutter · Xamarin
+  Databases (8): PostgreSQL · MySQL · MongoDB · Redis · Elasticsearch ·
+    SQLite · Realm · Firebase Realtime DB
+  Cloud & DevOps (11): AWS · Azure · Google Cloud · Docker · Kubernetes ·
+    Jenkins · Terraform · GitHub Actions · Heroku · Netlify · Vercel
+  AI / ML (10): Python · TensorFlow · PyTorch · Keras · scikit-learn ·
+    Pandas · NumPy · OpenCV · NLTK · XGBoost
+  IoT & embedded (5): Arduino · Raspberry Pi · ESP8266 · NodeMCU · Sensors
+  Blockchain (4): Solidity · Ethereum · Hyperledger · Web3.js
+  Integrations & messaging (9): GraphQL · WebSockets · Kafka · Apache
+    Airflow · Apache Spark · Stripe · Razorpay · Google Pay · Apple Pay
+  CMS & commerce (6): WordPress · Strapi · Contentful · WooCommerce ·
+    Shopify · Magento
+  DECISION POINT (owner): the "IoT & embedded" group (and most Blockchain
+  items) originated from the removed B.Tech Projects service; no remaining
+  service page references them except FinTech/crypto app categories. Keep or
+  drop these two groups — currently retained pending your call.
+
+3.5 PAGE: CONTACT  (source: Vol 5 — Contact & Quick Reference)
+............................................................
+Purpose: "Ready to transform your business? Here's how to reach SmartGrow
+Infotech."
+  Section CT1 — Primary action: "Book a Call" → [CAL.COM LINK — PENDING].
+  Section CT2 — Contact information: Email info@smartgrowinfotech.com ·
+    Phone +91 9063935182 · WhatsApp +91 9063935182 · Website
+    www.smartgrowinfotech.com · Location Madhapur, Hyderabad, Telangana,
+    India
+  Section CT3 — Company snapshot: 500+ Projects · 1000+ Students · 87%
+    Placement · 50+ Clients
+  Section CT4 — Services directory (9 rows; each links to the service page):
+    01 Product Development — Startups & businesses building software
+    02 Web Development — Any business needing a web presence
+    03 Mobile App Development — Consumer & enterprise apps
+    04 CRT Training — Students preparing for placements
+    05 Internship Program — 2nd/3rd/final-year engineering students
+    06 Technology Consultancy — Founders & teams needing CTO guidance
+    07 Digital Marketing — Businesses needing leads & growth
+    08 AI / ML — Students & businesses adopting AI
+    09 US IT Staffing — US companies hiring remote developers
+  Note: the brand file defines NO contact form — contact is via the booking
+  link, email, phone, and WhatsApp only (see M8 before adding a form).
+
+4. MISSING INFO — not present in the brand file or owner input (do not invent)
+--------------------------------------------------------------------------------
+M1  Logo assets. The Logo/ folder was not uploaded; no logo files exist in
+    the upload or inside the PDF. Blocks: navbar logo, footer logo, favicon,
+    social-share image. → Upload Logo/ to complete section 2 and replace all
+    [LOGO — PENDING] markers with exact paths.
+M2  Social media profile links (none listed anywhere in the file).
+M3  Legal pages: privacy policy and terms of service (no legal text exists).
+M4  Copyright notice text/year for the footer (none specified).
+M5  Team identities: no founder or team member names, titles, or photos —
+    only "15+ years of combined industry experience."
+M6  Client names/logos: the 50+ business clients are never named; success
+    stories are anonymized ("a telecom client", "EdTech SaaS platform").
+M7  Testimonial photos: testimonials carry names + colleges only.
+M8  Contact form specification: no form or fields are defined; channels are
+    the cal.com booking, email, phone, WhatsApp.
+M9  Full street address / postal code (only "Madhapur, Hyderabad, Telangana,
+    India").
+M10 Office hours (none stated).
+M11 Batch start dates / calendar for CRT and AI/ML training (no dates given).
+M12 Icon for the US IT Staffing services-grid entry: the other eight entries
+    carry emoji icons; this one's icon is not legible in the source.
+M13 FAQ content: none exists in the brand file. Per D4 the navbar requires a
+    #faq section, so section 3.1/H5 drafts 9 Q&As whose ANSWERS are all
+    sourced from the brand file (Q5 reflects owner pricing policy D1/D2);
+    the QUESTION wording is new — owner approval needed before publishing.
+M14 Blog/news content for SmartGrow's own site (content marketing is a
+    service sold to clients; no first-party posts are provided).
+M15 CAL.COM BOOKING URL — owner directed "Book a Call → integrate to cal.com"
+    but no cal.com username/event link was provided (and none exists in the
+    brand file). Every [CAL.COM LINK — PENDING] marker awaits this URL
+    (e.g. a cal.com event such as a 30-min discovery call, matching the
+    consultancy process's "Discovery call · free, 30 min").
+M16 Web Development success stories: the source provides none for this
+    service (success stories exist only for Product Development, CRT,
+    Internship, Consultancy, AI/ML).
+
+OPEN DECISION carried in-page: Technology page — keep or drop "IoT &
+embedded" and "Blockchain" groups now that B.Tech Projects is removed
+(section 3.4).
+BUILD CAUTION carried from the source itself: "Verify current statistics and
+availability before publishing externally."
+================================================================================

@@ -1,0 +1,188 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@500,700,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme (default) — neutral grays + CodeDale blue, per reference site */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+    --primary: 0 0% 15%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 97%;
+    --secondary-foreground: 0 0% 15%;
+    --muted: 0 0% 97%;
+    --muted-foreground: 225 12% 37%;
+    --accent: 30 88% 54%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 92%;
+    --input: 0 0% 92%;
+    --ring: 216 100% 48%;
+    --radius: 0.625rem;
+    /* CodeDale blue, used for select headings and links */
+    --brand-blue: 216 100% 48%;
+  }
+
+  .dark {
+    /* Dark theme — pure black, same blue */
+    --background: 0 0% 0%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 92%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 13%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 13%;
+    --muted-foreground: 0 0% 71%;
+    --accent: 30 88% 54%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 100% / 0.12;
+    --input: 0 0% 100% / 0.15;
+    --ring: 216 100% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Packed lettering site-wide: every element defaults to -0.5px.
+     Intentionally wide labels (tracking-widest / tracking-[…]) still win
+     via their utility classes. */
+  * {
+    letter-spacing: -0.5px;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer components {
+  /* Circuit-trace eyebrow (SmartGrow signature, kept from the logo motif) */
+  .circuit-eyebrow {
+    @apply flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-muted-foreground md:text-xs;
+  }
+  .circuit-eyebrow::before {
+    content: "";
+    @apply inline-block h-2 w-2 shrink-0 rounded-full bg-accent;
+    box-shadow: 0 0 0 3px hsl(var(--accent) / 0.2);
+  }
+  .circuit-eyebrow::after {
+    content: "";
+    @apply h-px w-10 bg-gradient-to-r from-border to-transparent;
+  }
+
+  /* Dotted grid backdrop (reference-site pattern), blue-tinted dots */
+  .dot-grid {
+    background-image: radial-gradient(
+      hsl(var(--brand-blue) / 0.22) 1.5px,
+      transparent 1.5px
+    );
+    background-size: 26px 26px;
+    background-position: center top;
+    mask-image: radial-gradient(circle at 50% 35%, black 25%, transparent 78%);
+    -webkit-mask-image: radial-gradient(
+      circle at 50% 35%,
+      black 25%,
+      transparent 78%
+    );
+  }
+  .dark .dot-grid {
+    background-image: radial-gradient(
+      hsl(0 0% 100% / 0.14) 1.5px,
+      transparent 1.5px
+    );
+  }
+
+  /* Pulsing green availability dot (reference-site badge) */
+  .pulse-ring {
+    @apply relative inline-block h-2.5 w-2.5 rounded-full bg-emerald-500;
+  }
+  .pulse-ring::after {
+    content: "";
+    @apply absolute inset-0 rounded-full bg-emerald-500/60;
+    animation: pulse-ring 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    80%,
+    100% {
+      transform: scale(2.4);
+      opacity: 0;
+    }
+  }
+
+  /* Logo marquee: scrolls right to left, faded on both edges */
+  .marquee-mask {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 12%,
+      black 88%,
+      transparent
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 12%,
+      black 88%,
+      transparent
+    );
+  }
+  .marquee-track {
+    animation: marquee 28s linear infinite;
+  }
+  .marquee-track-slow {
+    animation: marquee 45s linear infinite;
+  }
+  .marquee-pause:hover .marquee-track,
+  .marquee-pause:hover .marquee-track-slow {
+    animation-play-state: paused;
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .marquee-track,
+  .marquee-track-slow {
+    animation: none;
+  }
+  .pulse-ring::after {
+    animation: none;
+  }
+}

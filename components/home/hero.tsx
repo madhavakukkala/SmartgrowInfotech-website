@@ -106,11 +106,7 @@ export function HomeHero() {
       badge={<SlotsBadge />}
       title={
         <>
-          We engineer{" "}
-          {/* Own line on mobile so the animated slot never wraps mid-line */}
-          <span className="block md:inline">
-            <RotatingWord />
-          </span>
+          We engineer <RotatingWord />
           <br className="hidden md:block" /> for companies that mean business.
         </>
       }

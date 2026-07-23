@@ -1,6 +1,7 @@
 ﻿import Link from "next/link";
 import Image from "next/image";
 import ButtonWithIcon from "@/components/ui/button-with-icon";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { BOOK_CALL_URL, site } from "@/lib/site";
 
 /**
@@ -30,7 +31,10 @@ export function SiteHeader() {
             className="hidden h-16 w-auto md:h-20 dark:block"
           />
         </Link>
-        <ButtonWithIcon label="Book a Call" href={BOOK_CALL_URL} />
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <ButtonWithIcon label="Book a Call" href={BOOK_CALL_URL} />
+        </div>
       </div>
     </header>
   );

@@ -19,7 +19,7 @@ export function SiteHeader() {
             width={320}
             height={113}
             priority
-            className="h-[52px] w-auto md:h-16 dark:hidden"
+            className="h-16 w-auto md:h-20 dark:hidden"
           />
           <Image
             src="/logo/logo-dark.png"
@@ -27,7 +27,7 @@ export function SiteHeader() {
             width={320}
             height={113}
             priority
-            className="hidden h-[52px] w-auto md:h-16 dark:block"
+            className="hidden h-16 w-auto md:h-20 dark:block"
           />
         </Link>
         <ButtonWithIcon label="Book a Call" href={BOOK_CALL_URL} />

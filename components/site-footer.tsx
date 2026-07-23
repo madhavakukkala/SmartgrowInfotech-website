@@ -42,14 +42,14 @@ export function SiteFooter() {
               alt={site.name}
               width={190}
               height={67}
-              className="mb-4 h-12 w-auto dark:hidden"
+              className="mb-4 h-16 w-auto dark:hidden"
             />
             <Image
               src="/logo/logo-dark.png"
               alt={site.name}
               width={190}
               height={67}
-              className="mb-4 hidden h-12 w-auto dark:block"
+              className="mb-4 hidden h-16 w-auto dark:block"
             />
             <p className="mb-6 text-sm leading-relaxed text-muted-foreground">
               {footerAbout}

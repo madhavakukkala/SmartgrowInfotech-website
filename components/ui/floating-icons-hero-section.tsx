@@ -194,8 +194,9 @@ const FloatingIconsHero = React.forwardRef<
           ))}
         </div>
 
-        {/* Container for the foreground content */}
-        <div className="relative z-10 flex flex-col items-center text-center px-4 py-24">
+        {/* Container for the foreground content. Extra top padding on mobile
+            keeps the badge clear of the fixed Menu pill. */}
+        <div className="relative z-10 flex flex-col items-center text-center px-4 pb-24 pt-48 md:py-24">
           {badge}
           <h1 className="max-w-3xl text-[34px] leading-[1.1] font-semibold tracking-[-1.7px] md:text-[50px] md:font-bold md:tracking-[-2.5px] md:leading-[1.2] xl:leading-[64px] text-foreground">
             {title}

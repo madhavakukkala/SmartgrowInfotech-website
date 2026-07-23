@@ -9,6 +9,12 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+// Register at module scope: useGSAP runs as a layout effect, which fires
+// before any useEffect-based registration and would warn/break the pin.
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(ScrollTrigger);
+}
+
 export interface FAQItem {
   id: number;
   question: string;
@@ -37,13 +43,6 @@ export default function ScrollFAQAccordion({
   const [openItem, setOpenItem] = React.useState<string | null>(null);
   const containerRef = React.useRef<HTMLDivElement>(null);
   const contentRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
-
-  // Register GSAP plugins
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      gsap.registerPlugin(ScrollTrigger);
-    }
-  }, []);
 
   // Scroll-driven accordion: pin the section and open items sequentially.
   useGSAP(

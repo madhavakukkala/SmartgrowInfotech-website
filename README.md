@@ -122,15 +122,23 @@ Extracted from the reference site (codedale.tech) at roughly an 80/20 blend with
 3. Stipends, salary outcomes, and program durations are allowed; project delivery timelines are not.
 4. Social links, legal pages, and team names do not exist in the brand file, so the site does not show them (team page uses labeled placeholders).
 
-## Deployment
+## Deployment (Hostinger via GitHub)
 
-The repo is Vercel-ready:
+The site is a static export (`output: "export"` in `next.config.mjs`), so it runs on Hostinger shared hosting with no Node server.
 
-1. Go to [vercel.com/new](https://vercel.com/new) and import this repository.
-2. Framework preset: Next.js (auto-detected). No environment variables needed.
-3. Every push to `main` auto-deploys.
+**How it works:** every push to `main` triggers the GitHub Action in `.github/workflows/deploy.yml`, which builds the site and publishes the `out/` folder to the **`hostinger-deploy`** branch. Hostinger clones that branch straight into `public_html`.
 
-Any Node host works too: `npm run build` then `npm start` (port 3000 by default).
+**One-time Hostinger setup:**
+
+1. hPanel → your website → **Advanced → GIT**.
+2. Repository: `https://github.com/madhavakukkala/SmartgrowInfotech-website`, branch: `hostinger-deploy`, directory: leave blank (deploys to `public_html`). Create.
+3. Click **Deploy** once to pull the current build.
+4. Copy the **webhook URL** Hostinger shows, then in GitHub: repo → Settings → Webhooks → Add webhook → paste it (content type JSON, just the push event). Now Hostinger re-pulls automatically each time the Action updates the branch.
+5. Enable SSL + Force HTTPS in hPanel (cal.com requires HTTPS to embed).
+
+After that, deploying = pushing to `main`. Nothing else.
+
+The repo also works on Vercel (import, auto-detected) or any Node host (`npm run build && npm start`) if hosting ever changes.
 
 ## Known items still open
 

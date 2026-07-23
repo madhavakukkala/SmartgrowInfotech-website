@@ -64,5 +64,6 @@ export const footerCompanyLinks = [
   { label: "Team", href: "/about/team" },
   { label: "Career", href: "/about/career" },
   { label: "Technology", href: "/technology" },
+  { label: "Brand", href: "/brand" },
   { label: "Contact", href: "/contact" },
 ] as const;

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import ButtonWithIcon from "@/components/ui/button-with-icon";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { MobileMenu } from "@/components/mobile-menu";
 import { BOOK_CALL_URL, site } from "@/lib/site";
 
 /**
@@ -33,7 +34,13 @@ export function SiteHeader() {
         </Link>
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <ButtonWithIcon label="Book a Call" href={BOOK_CALL_URL} />
+          {/* Mobile: hamburger menu. sm and up: Book a Call button. */}
+          <MobileMenu />
+          <ButtonWithIcon
+            label="Book a Call"
+            href={BOOK_CALL_URL}
+            className="hidden sm:inline-flex"
+          />
         </div>
       </div>
     </header>

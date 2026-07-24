@@ -36,22 +36,40 @@ npm start
 | Booking | cal.com inline embed |
 | Icons | lucide-react + local brand SVGs |
 
-## Pages
+## Pages — complete list
 
-| Route | What it is |
-|---|---|
-| `/` | One-pager: hero, `#services`, `#our-works`, `#achievements`, `#faq`, CTA |
-| `/services` | All nine services grouped by category |
-| `/services/branding` · `/services/technology` · `/services/marketing` · `/services/training` | Category pages |
-| `/services/<slug>` | Nine service detail pages (overview, scope, process timeline, stack, results, CTA) |
-| `/about` | Company story, stats, vision, mission, values, FAQs |
-| `/about/team` | Team page (role cards, names are placeholders for now) |
-| `/about/career` | Internships and the US talent pool, how to apply |
-| `/contact` | Contact channels, stats, services directory |
-| `/book-a-call` | Inline cal.com scheduler + WhatsApp and phone buttons |
-| `/technology` | The full technology index (10 groups) |
-| `/company` | Redirects to `/about` |
-| anything else | Custom 404 (the star logo plays the zero in "4 0 4") |
+Everything reachable on the site: pages, home-page anchor sections, and system pages.
+
+| # | Page | URL | What's on it |
+|---|---|---|---|
+| 1 | Home | `/` | Hero (rotating word, slots badge, reviews, stats), services grid, our work, achievements, FAQs, CTA |
+| 2 | Home · Services section | `/#services` | Nine service cards (navbar anchor) |
+| 3 | Home · Our Work section | `/#our-works` | Case-study scroll + client testimonial marquee (navbar anchor) |
+| 4 | Home · Achievements section | `/#achievements` | Stats, scroll headlines, hiring-company logo marquee (navbar anchor) |
+| 5 | Home · FAQs section | `/#faq` | Scroll-driven FAQ accordion (navbar anchor) |
+| 6 | Services index | `/services` | All nine services grouped by the four categories |
+| 7 | Category · Branding | `/services/branding` | Web Development |
+| 8 | Category · Technology | `/services/technology` | Product Dev, Mobile Apps, Consultancy, AI/ML, US IT Staffing |
+| 9 | Category · Marketing | `/services/marketing` | Digital Marketing |
+| 10 | Category · Training | `/services/training` | CRT Training, Internship Program, AI/ML |
+| 11 | Service · Product Development | `/services/product-development` | SaaS, enterprise, marketplaces, MVPs |
+| 12 | Service · Web Development | `/services/web-development` | Corporate sites, e-commerce, web apps |
+| 13 | Service · Mobile App Development | `/services/mobile-app-development` | iOS, Android, cross-platform apps |
+| 14 | Service · CRT Training Program | `/services/crt-training` | 60-day placement training |
+| 15 | Service · Internship Program | `/services/internship-program` | Five tracks, stipends, PPO path |
+| 16 | Service · Technology Consultancy | `/services/technology-consultancy` | CTO-level guidance, audits, strategy |
+| 17 | Service · Digital Marketing | `/services/digital-marketing` | SEO, ads, social, content, CRO |
+| 18 | Service · AI / ML Projects & Training | `/services/ai-ml` | Training program + custom AI builds |
+| 19 | Service · US IT Staffing | `/services/us-it-staffing` | Pre-vetted remote developers for US teams |
+| 20 | About Us | `/about` | Company story, stats, vision, mission, values, FAQs |
+| 21 | Team | `/about/team` | Role cards (names are placeholders for now) |
+| 22 | Career | `/about/career` | Internships, US talent pool, how to apply |
+| 23 | Contact | `/contact` | Channels, stats, services directory |
+| 24 | Book a Call | `/book-a-call` | Inline cal.com scheduler + WhatsApp and phone buttons |
+| 25 | Technology index | `/technology` | The full tech stack, 10 groups |
+| 26 | Brand guidelines | `/brand` | Logos with downloads, colors, typography, voice |
+| 27 | Company (legacy) | `/company` | Redirects to `/about` |
+| 28 | Not found | any unknown URL | Custom 404 (the star logo plays the zero in "4 0 4") |
 
 ## Project structure
 

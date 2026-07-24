@@ -40,35 +40,35 @@ npm start
 
 Everything reachable on the site: pages, home-page anchor sections, and system pages.
 
-| # | Page | URL | What's on it |
+| # | Page | Live URL | What's on it |
 |---|---|---|---|
-| 1 | Home | `/` | Hero (rotating word, slots badge, reviews, stats), services grid, our work, achievements, FAQs, CTA |
-| 2 | Home · Services section | `/#services` | Nine service cards (navbar anchor) |
-| 3 | Home · Our Work section | `/#our-works` | Case-study scroll + client testimonial marquee (navbar anchor) |
-| 4 | Home · Achievements section | `/#achievements` | Stats, scroll headlines, hiring-company logo marquee (navbar anchor) |
-| 5 | Home · FAQs section | `/#faq` | Scroll-driven FAQ accordion (navbar anchor) |
-| 6 | Services index | `/services` | All nine services grouped by the four categories |
-| 7 | Category · Branding | `/services/branding` | Web Development |
-| 8 | Category · Technology | `/services/technology` | Product Dev, Mobile Apps, Consultancy, AI/ML, US IT Staffing |
-| 9 | Category · Marketing | `/services/marketing` | Digital Marketing |
-| 10 | Category · Training | `/services/training` | CRT Training, Internship Program, AI/ML |
-| 11 | Service · Product Development | `/services/product-development` | SaaS, enterprise, marketplaces, MVPs |
-| 12 | Service · Web Development | `/services/web-development` | Corporate sites, e-commerce, web apps |
-| 13 | Service · Mobile App Development | `/services/mobile-app-development` | iOS, Android, cross-platform apps |
-| 14 | Service · CRT Training Program | `/services/crt-training` | 60-day placement training |
-| 15 | Service · Internship Program | `/services/internship-program` | Five tracks, stipends, PPO path |
-| 16 | Service · Technology Consultancy | `/services/technology-consultancy` | CTO-level guidance, audits, strategy |
-| 17 | Service · Digital Marketing | `/services/digital-marketing` | SEO, ads, social, content, CRO |
-| 18 | Service · AI / ML Projects & Training | `/services/ai-ml` | Training program + custom AI builds |
-| 19 | Service · US IT Staffing | `/services/us-it-staffing` | Pre-vetted remote developers for US teams |
-| 20 | About Us | `/about` | Company story, stats, vision, mission, values, FAQs |
-| 21 | Team | `/about/team` | Role cards (names are placeholders for now) |
-| 22 | Career | `/about/career` | Internships, US talent pool, how to apply |
-| 23 | Contact | `/contact` | Channels, stats, services directory |
-| 24 | Book a Call | `/book-a-call` | Inline cal.com scheduler + WhatsApp and phone buttons |
-| 25 | Technology index | `/technology` | The full tech stack, 10 groups |
-| 26 | Brand guidelines | `/brand` | Logos with downloads, colors, typography, voice |
-| 27 | Company (legacy) | `/company` | Redirects to `/about` |
+| 1 | Home | https://smartgrowinfotech.com/ | Hero (rotating word, slots badge, reviews, stats), services grid, our work, achievements, FAQs, CTA |
+| 2 | Home · Services section | https://smartgrowinfotech.com/#services | Nine service cards (navbar anchor) |
+| 3 | Home · Our Work section | https://smartgrowinfotech.com/#our-works | Case-study scroll + client testimonial marquee (navbar anchor) |
+| 4 | Home · Achievements section | https://smartgrowinfotech.com/#achievements | Stats, scroll headlines, hiring-company logo marquee (navbar anchor) |
+| 5 | Home · FAQs section | https://smartgrowinfotech.com/#faq | Scroll-driven FAQ accordion (navbar anchor) |
+| 6 | Services index | https://smartgrowinfotech.com/services/ | All nine services grouped by the four categories |
+| 7 | Category · Branding | https://smartgrowinfotech.com/services/branding/ | Web Development |
+| 8 | Category · Technology | https://smartgrowinfotech.com/services/technology/ | Product Dev, Mobile Apps, Consultancy, AI/ML, US IT Staffing |
+| 9 | Category · Marketing | https://smartgrowinfotech.com/services/marketing/ | Digital Marketing |
+| 10 | Category · Training | https://smartgrowinfotech.com/services/training/ | CRT Training, Internship Program, AI/ML |
+| 11 | Service · Product Development | https://smartgrowinfotech.com/services/product-development/ | SaaS, enterprise, marketplaces, MVPs |
+| 12 | Service · Web Development | https://smartgrowinfotech.com/services/web-development/ | Corporate sites, e-commerce, web apps |
+| 13 | Service · Mobile App Development | https://smartgrowinfotech.com/services/mobile-app-development/ | iOS, Android, cross-platform apps |
+| 14 | Service · CRT Training Program | https://smartgrowinfotech.com/services/crt-training/ | 60-day placement training |
+| 15 | Service · Internship Program | https://smartgrowinfotech.com/services/internship-program/ | Five tracks, stipends, PPO path |
+| 16 | Service · Technology Consultancy | https://smartgrowinfotech.com/services/technology-consultancy/ | CTO-level guidance, audits, strategy |
+| 17 | Service · Digital Marketing | https://smartgrowinfotech.com/services/digital-marketing/ | SEO, ads, social, content, CRO |
+| 18 | Service · AI / ML Projects & Training | https://smartgrowinfotech.com/services/ai-ml/ | Training program + custom AI builds |
+| 19 | Service · US IT Staffing | https://smartgrowinfotech.com/services/us-it-staffing/ | Pre-vetted remote developers for US teams |
+| 20 | About Us | https://smartgrowinfotech.com/about/ | Company story, stats, vision, mission, values, FAQs |
+| 21 | Team | https://smartgrowinfotech.com/about/team/ | Role cards (names are placeholders for now) |
+| 22 | Career | https://smartgrowinfotech.com/about/career/ | Internships, US talent pool, how to apply |
+| 23 | Contact | https://smartgrowinfotech.com/contact/ | Channels, stats, services directory |
+| 24 | Book a Call | https://smartgrowinfotech.com/book-a-call/ | Inline cal.com scheduler + WhatsApp and phone buttons |
+| 25 | Technology index | https://smartgrowinfotech.com/technology/ | The full tech stack, 10 groups |
+| 26 | Brand guidelines | https://smartgrowinfotech.com/brand/ | Logos with downloads, colors, typography, voice |
+| 27 | Company (legacy) | https://smartgrowinfotech.com/company/ | Redirects to `/about` |
 | 28 | Not found | any unknown URL | Custom 404 (the star logo plays the zero in "4 0 4") |
 
 ## Project structure

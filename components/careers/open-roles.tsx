@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Loader2, MapPin, Send, Upload } from "lucide-react";
 import { jobs } from "@/lib/jobs";
 import { APPLY_ENDPOINT, site } from "@/lib/site";
@@ -61,8 +62,17 @@ export function OpenRoles() {
                 />
               </button>
 
-              {open && (
-                <div className="border-t border-border px-6 pb-6 pt-5">
+              <AnimatePresence initial={false}>
+                {open && (
+                  <motion.div
+                    key="details"
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                    className="overflow-hidden"
+                  >
+                    <div className="border-t border-border px-6 pb-6 pt-5">
                   <p className="max-w-2xl text-[15px] leading-snug tracking-tight text-muted-foreground">
                     {job.intro}
                   </p>
@@ -89,16 +99,17 @@ export function OpenRoles() {
                       </div>
                     ))}
                   </div>
-                  <button
-                    type="button"
-                    onClick={() => applyFor(job.title)}
-                    className="mt-7 inline-flex h-11 items-center gap-2 rounded-full bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
-                  >
-                    Apply for this role
-                    <Send className="h-4 w-4" aria-hidden="true" />
-                  </button>
-                </div>
-              )}
+                      <button
+                        type="button"
+                        onClick={() => applyFor(job.title)}
+                        className="mt-7 inline-flex h-11 items-center rounded-full bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+                      >
+                        Apply for this role
+                      </button>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </article>
           );
         })}
@@ -238,25 +249,34 @@ function ApplicationForm({
   }
 
   const inputCls =
-    "h-11 w-full rounded-xl border border-border bg-background px-3.5 text-sm text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
+    "h-11 w-full rounded-xl border border-border bg-background px-3.5 text-sm text-foreground placeholder:text-muted-foreground transition-[border-color,box-shadow] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
 
   return (
     <form onSubmit={handleSubmit} className="mt-6 grid gap-4 sm:grid-cols-2">
       <label className="flex flex-col gap-1.5 text-sm font-medium">
         Applying for
-        <select
-          name="role"
-          value={role}
-          onChange={(e) => onRoleChange(e.target.value)}
-          className={inputCls}
-          required
-        >
-          {jobs.map((j) => (
-            <option key={j.id} value={j.title}>
-              {j.title}
-            </option>
-          ))}
-        </select>
+        <span className="relative block">
+          <select
+            name="role"
+            value={role}
+            onChange={(e) => onRoleChange(e.target.value)}
+            className={cn(
+              inputCls,
+              "cursor-pointer appearance-none pr-10 hover:border-muted-foreground/40",
+            )}
+            required
+          >
+            {jobs.map((j) => (
+              <option key={j.id} value={j.title}>
+                {j.title}
+              </option>
+            ))}
+          </select>
+          <ChevronDown
+            className="pointer-events-none absolute right-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+            aria-hidden="true"
+          />
+        </span>
       </label>
       <label className="flex flex-col gap-1.5 text-sm font-medium">
         Full name

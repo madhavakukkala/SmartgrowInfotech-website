@@ -16,7 +16,7 @@ export const CAL_LINK = "smartgrowinfotech/";
  * Setup guide: docs/CAREERS_FORM_SETUP.md. Until this is filled in, the
  * career page shows an email fallback instead of the form.
  */
-export const APPLY_ENDPOINT = "";
+export const APPLY_ENDPOINT = "https://script.google.com/macros/s/AKfycbzU1BytGuSCHmVOvd8K5V-e7W7Aswh-J14BA0oYbryJFSnGQTTuVR5yCzb9dVIl4ImSRw/exec";
 
 export const site = {
   name: "SmartGrow Infotech",

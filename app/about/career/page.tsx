@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { SectionHeading } from "@/components/section-heading";
+import { OpenRoles } from "@/components/careers/open-roles";
 import { CtaStrip } from "@/components/cta-strip";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Career",
   description:
-    "Work with SmartGrow Infotech: paid internships across five tracks, PPO offers for top performers, and US contract work for experienced developers.",
+    "We're hiring in Hyderabad: Business Development Executive, Python AI/ML Trainer, and Graphic Designer & Video Editor. Plus paid internships and US contract work.",
 };
 
 const paths = [
@@ -46,14 +47,33 @@ export default function CareerPage() {
             Work with us
           </h1>
           <p className="mt-4 text-[15px] leading-snug tracking-tight text-muted-foreground md:text-lg">
-            Two ways in: start as an intern and grow into a full-time role, or
-            join our talent pool as an experienced developer and work on US
-            projects.
+            Three roles open right now in Hyderabad. Read the details, fill
+            the form, attach your resume. That's the whole process.
           </p>
         </div>
       </section>
 
-      <section className="py-20">
+      {/* Open positions + application form */}
+      <section id="openings" className="scroll-mt-24 py-20">
+        <div className="container max-w-4xl">
+          <SectionHeading
+            eyebrow="Open positions"
+            title="We're hiring"
+            lede="Tap a role to read the full description, then apply below."
+            blue
+          />
+          <OpenRoles />
+        </div>
+      </section>
+
+      <section className="border-t border-border/60 py-20">
+        <div className="container max-w-4xl">
+          <SectionHeading
+            eyebrow="Other paths"
+            title="Not seeing your role?"
+            lede="There are two more ways to work with us."
+          />
+        </div>
         <div className="container grid gap-6 lg:grid-cols-2">
           {paths.map((p) => (
             <div key={p.title} className="flex flex-col rounded-2xl border border-border bg-card p-8">

@@ -10,6 +10,14 @@ export const BOOK_CALL_URL = "/book-a-call";
 /** cal.com account/event link used by the inline embed. */
 export const CAL_LINK = "smartgrowinfotech/";
 
+/**
+ * Job application endpoint (Google Apps Script web app URL).
+ * Submissions land in the connected Google Sheet; resumes go to Drive.
+ * Setup guide: docs/CAREERS_FORM_SETUP.md. Until this is filled in, the
+ * career page shows an email fallback instead of the form.
+ */
+export const APPLY_ENDPOINT = "";
+
 export const site = {
   name: "SmartGrow Infotech",
   tagline: "Your complete technology & training partner",
